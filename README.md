@@ -72,3 +72,7 @@ ansible-playbook -i inventory/hosts.ini playbooks/run_container.yml
 ### Resultado
 Docker se instaló y configuró exitosamente en la máquina virtual.El contenedor fue desplegado y está disponible a través de la dirección pública de la VM en el puerto configurado.
 La conectividad fue verificada gracias a la apertura del puerto 8787 en el grupo de seguridad de red (NSG).
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
